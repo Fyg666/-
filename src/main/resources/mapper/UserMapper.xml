@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.GGShopping.dao.UserDao">
+    <!--ResultMap标签基本作用：建立SQL查询结果字段与实体属性的映射关系信息-->
+    <resultMap id="UserResultMap" type="User">
+        <id property="userId" column="user_id"/>
+        <result property="userName" column="user_name"/>
+        <result property="userSex" column="user_sex"/>
+        <result property="userAge" column="user_Age"/>
+        <result property="password" column="password"/>
+    </resultMap>
+
+
+</mapper>

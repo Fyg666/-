@@ -10,6 +10,7 @@ public class Goods {
     }
 
     public void setGoodsId(long goodsId) {
+
         this.goodsId = goodsId;
     }
 
@@ -22,10 +23,12 @@ public class Goods {
     }
 
     public String getGoodsDetail() {
+
         return goodsDetail;
     }
 
     public void setGoodsDetail(String goodsDetail) {
+
         this.goodsDetail = goodsDetail;
     }
 }
