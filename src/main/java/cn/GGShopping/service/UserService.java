@@ -10,5 +10,5 @@ public interface UserService {
     // 改（修改用户信息）
     boolean updUser(User user);
     // 查（查询出所有的用户  此功能可不实现）
-    User selUser (int id);
+    User selUser (String userName,String password);
 }
