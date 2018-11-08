@@ -27,9 +27,10 @@
     <title>登录</title>
 </head>
 <body>
+    <a href="/user/index">首页</a>
     <form action="<%=basePath%>user/userLogin" name="userForm" method="post">
-        账号：<input type="text" name="userName">
-        密码：<input type="password" name="password">
+        账号：<input type="text" name="userName" align="center">
+        密码：<input type="password" name="password" align="center">
         <input type="submit" name="loginButton" value="登录">
     </form>
 </body>

@@ -8,29 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="595004ea-23a1-423d-8619-55eac8c590ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GGShopping/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_unknown.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/addUser.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/goodsDetail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/home.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/order.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/shoppingCart.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/userLogin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/userManagement.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/file/需求分析 (自动保存的).docx" afterPath="$PROJECT_DIR$/../GGShopping/file/需求分析 (自动保存的).docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/.idea/artifacts/GGShopping_war_exploded.xml" afterPath="$PROJECT_DIR$/../GGShopping/.idea/artifacts/GGShopping_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/.idea/misc.xml" afterPath="$PROJECT_DIR$/../GGShopping/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/target/GGShopping.war" afterPath="$PROJECT_DIR$/../GGShopping/target/GGShopping.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GGShopping/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/GGShopping.iml" afterPath="$PROJECT_DIR$/../GGShopping/GGShopping.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/pom.xml" afterPath="$PROJECT_DIR$/../GGShopping/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/controller/GoodsController.java" afterPath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/controller/GoodsController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/controller/UserController.java" afterPath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/dao/UserDao.java" afterPath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/service/UserService.java" afterPath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/service/impl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/service/impl/GoodsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/home.jsp" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/userLogin.jsp" afterPath="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/userLogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GGShopping/target/GGShopping/WEB-INF/jsp/home.jsp" afterPath="$PROJECT_DIR$/../GGShopping/target/GGShopping/WEB-INF/jsp/home.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/../GGShopping/out/" />
     <ignored path="$PROJECT_DIR$/../GGShopping/target/" />
@@ -46,12 +29,10 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="40" />
+            <state relative-caret-position="173">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,8 +41,8 @@
       <file leaf-file-name="home.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1587">
-              <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+            <state relative-caret-position="334">
+              <caret line="68" column="55" lean-forward="false" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -70,8 +51,8 @@
       <file leaf-file-name="userLogin.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/userLogin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="22" column="91" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="91" />
+            <state relative-caret-position="334">
+              <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -149,9 +130,9 @@
         <option value="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../GGShopping/src/main/webapp/index_jsp.jsp" />
         <option value="$PROJECT_DIR$/../GGShopping/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/userLogin.jsp" />
         <option value="$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/home.jsp" />
+        <option value="$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/userLogin.jsp" />
       </list>
     </option>
   </component>
@@ -227,6 +208,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -378,10 +362,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -740,6 +721,8 @@
       <workItem from="1541072557146" duration="24157000" />
       <workItem from="1541414221358" duration="9924000" />
       <workItem from="1541495535607" duration="9814000" />
+      <workItem from="1541587213810" duration="4081000" />
+      <workItem from="1541591924556" duration="2877000" />
     </task>
     <servers />
   </component>
@@ -761,13 +744,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85915000" />
+    <option name="totallyTimeSpent" value="92873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3945055" sideWeight="0.16302083" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3945055" sideWeight="0.16927083" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -784,7 +767,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3945055" sideWeight="0.83697915" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3945055" sideWeight="0.8307292" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -921,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,9 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1132,30 +1111,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/userLogin.jsp">
+    <entry file="file://$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="91" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="91" />
-          <folding />
+        <state relative-caret-position="173">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../GGShopping/src/main/java/cn/GGShopping/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/userLogin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="334">
+          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../GGShopping/src/main/webapp/WEB-INF/jsp/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+        <state relative-caret-position="334">
+          <caret line="68" column="55" lean-forward="false" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
           <folding />
         </state>
       </provider>
