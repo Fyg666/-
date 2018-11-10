@@ -11,4 +11,6 @@ public interface UserService {
     boolean updUser(User user);
     // 查（查询出所有的用户  此功能可不实现）
     User selUser (String userName,String password);
+    //个人信息
+    User userManagementService(String userName);
 }

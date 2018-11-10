@@ -12,4 +12,6 @@ public interface UserDao {
     boolean updUser(User user);
     // 查（查询出所有的用户  此功能可不实现）
     User selUser (@Param("userName") String userName, @Param("password") String password);
+    //个人信息
+    User userManagementDao(@Param("userName") String userName);
 }

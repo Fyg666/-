@@ -11,6 +11,8 @@
     <title>初始页</title>
 </head>
 <body>
-    <a href="/user/index">进入</a>
+    <h1 align="center">
+        <a href="/user/index">进入</a>
+    </h1>
 </body>
 </html>

@@ -1,42 +1,46 @@
 package cn.GGShopping.entity;
 
 public class User {
-    private long userId;
-    private String userName;
-    private String userSex;
-    private String userAge;
+    private long user_id;
+    private String user_name;
+    private String user_sex;
+    private String user_age;
     private String password;
 
-    public long getUserId() {
-        return userId;
+    public User() {
     }
 
-    public void setUserId(long userId) {
-        this.userId = userId;
+
+    public String getUser_sex() {
+        return user_sex;
     }
 
-    public String getUserName() {
-        return userName;
+    public void setUser_sex(String user_sex) {
+        this.user_sex = user_sex;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public long getUser_id() {
+        return user_id;
     }
 
-    public String getUserSex() {
-        return userSex;
+    public void setUser_id(long user_id) {
+        this.user_id = user_id;
     }
 
-    public void setUserSex(String userSex) {
-        this.userSex = userSex;
+    public String getUser_name() {
+        return user_name;
     }
 
-    public String getUserAge() {
-        return userAge;
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
     }
 
-    public void setUserAge(String userAge) {
-        this.userAge = userAge;
+    public String getUser_age() {
+        return user_age;
+    }
+
+    public void setUser_age(String user_age) {
+        this.user_age = user_age;
     }
 
     public String getPassword() {

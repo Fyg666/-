@@ -31,4 +31,9 @@ public class UserServiceImpl implements UserService{
     public User selUser(String userName,String password) {
         return userDao.selUser(userName,password);
     }
+
+    @Override
+    public User userManagementService(String userName) {
+        return userDao.userManagementDao(userName);
+    }
 }

@@ -17,4 +17,10 @@
           FROM shop_user
           WHERE user_name=#{userName} AND password=#{password}
     </select>
+
+    <select id="userManagementDao" resultType="cn.GGShopping.entity.User" parameterType="String">
+        SELECT user_id,user_name,user_sex,user_Age
+          FROM shop_user
+          WHERE user_name=#{userName}
+    </select>
 </mapper>
