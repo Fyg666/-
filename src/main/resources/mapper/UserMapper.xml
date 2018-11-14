@@ -23,4 +23,8 @@
           FROM shop_user
           WHERE user_name=#{userName}
     </select>
+
+    <update id="updateUserManagement" parameterType="String" >
+      update shop_user set user_age=#{userAge},user_sex=#{userSex} where user_name=#{userName}
+    </update>
 </mapper>

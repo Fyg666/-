@@ -36,4 +36,9 @@ public class UserServiceImpl implements UserService{
     public User userManagementService(String userName) {
         return userDao.userManagementDao(userName);
     }
+
+    @Override
+    public int updateUserManagement(String userName, String userAge, String userSex) {
+       return userDao.updateUserManagement(userName,userAge,userSex);
+    }
 }

@@ -14,4 +14,6 @@ public interface UserDao {
     User selUser (@Param("userName") String userName, @Param("password") String password);
     //个人信息
     User userManagementDao(@Param("userName") String userName);
+
+    int updateUserManagement(@Param("userName")String userName, @Param("userAge")String userAge,@Param("userSex")String userSex);
 }

@@ -13,4 +13,6 @@ public interface UserService {
     User selUser (String userName,String password);
     //个人信息
     User userManagementService(String userName);
+
+    int updateUserManagement(String userName, String userAge, String userSex);
 }

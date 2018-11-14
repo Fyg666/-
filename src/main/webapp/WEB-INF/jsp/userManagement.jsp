@@ -5,29 +5,14 @@
   Time: 18:34
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<c:set value="${pageContext.request.contextPath}" var="path" scope="page"/>
+<%
+    pageContext.setAttribute("path", request.getContextPath());
+%>
 <html>
 <head>
-    <script>
-        function update() {
-            var button=$("#update").val();
-            if(button=="编辑"){
-                $("#userName").attr("disabled",false);
-                $("#age").attr("disabled",false);
-                $("#userId").attr("disabled",false);
-                $("#userSex").attr("disabled",false);
-                $("#update").val("保存");
-            }else if(button=="保存"){
-                $("#userName").attr("disabled",true);
-                $("#age").attr("disabled",true);
-                $("#userId").attr("disabled",true);
-                $("#userSex").attr("disabled",true);
-                $("#update").val("编辑");
-
-            }
-
-        }
-    </script>
     <title>个人中心</title>
     <!-- 新Bootstrap核心css文件 -->
     <link rel="stylesheet" type="text/css" href="${path}/bootstrap/css/bootstrap.min.css">
@@ -42,12 +27,49 @@
     <div align="right">
         <input type="button" value="编辑" id="update" onclick="update()">
     </div>
-    <div align="center">
-        用户名:<input type="text" id="userName" value="${userManagement.user_name}" disabled="disabled">
-        年龄:<input type="text" id="age" value="${userManagement.user_age}" disabled="disabled">
-        用户id:<input type="text" id="userId" value="${userManagement.user_id}" disabled="disabled">
-        用户性别:<input type="text" id="userSex" value="${userManagement.user_sex}" disabled="disabled">
+    <div align="center" id="myDiv">
+        用户名:<input type="text" id="userName" name="userName" value="${userManagement.user_name}" disabled="disabled"><br>
+        年龄:<input type="text" id="age" name="userAge" value="${userManagement.user_age}" disabled="disabled" onchange="ageChange()"><br>
+        用户id:<input type="text" id="userId" name="userId" value="${userManagement.user_id}" disabled="disabled"><br>
+        用户性别:<input type="text" id="userSex" name="userSex" value="${userManagement.user_sex}" disabled="disabled" onchange="sexChange()"><br>
+        <input type="button" value="返回" id="return" onclick="location.href=('/user/index')">
     </div>
 </body>
 </html>
+<script>
+
+
+    var userName =$("#userName").val();
+    function ageChange(){
+        var age =$("#age").val();
+        return age;
+    }
+    function sexChange(){
+        var sex =$("#userSex").val()
+        return sex;
+    }
+    function update() {
+        var button=$("#update").val();
+        if(button=="编辑"){
+            $("#age").removeAttr("disabled");
+            $("#userSex").removeAttr("disabled");
+            $("#update").val("保存");
+        }else if(button=="保存"){
+            var age=ageChange();
+            var sex=sexChange();
+           /* var age=$("#age").val();
+            var sex=$("#userSex").val();
+            var userName=$("#userName").val();*/
+            /*window.location.href="{path }/user/updateUserManagement?age="+age+"sex="+sex+"userName="+userName;*/
+            window.location.href="${path }/user/updateUserManagement?age="+age+"&sex="+sex+"&userName="+userName;
+            alert("${msg}"+"修改成功");
+            /*$("#age").attr("readonly",true);
+            $("#userSex").attr("readonly",true);
+            $("#update").val("编辑");*/
+           /* window.location.reload();*/
+            /*$("#age").val("{userManagement.user_age}");
+            $("#userSex").val("{userManagement.user_sex}");*/
+        }
+    }
+</script>
 
