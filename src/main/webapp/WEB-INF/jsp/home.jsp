@@ -64,7 +64,7 @@
             </c:when>
             <c:otherwise>
                 <a href="/user/login" id="login">登录</a>
-                <a href="${path }/paper/allPaper" id="add">注册</a>
+                <a href="${path }/user/registered" id="add">注册</a>
             </c:otherwise>
         </c:choose>
         <%--第二种方式--%>

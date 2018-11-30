@@ -16,4 +16,6 @@ public interface UserDao {
     User userManagementDao(@Param("userName") String userName);
 
     int updateUserManagement(@Param("userName")String userName, @Param("userAge")String userAge,@Param("userSex")String userSex);
+
+    int toRegistered(@Param("userName")String userName,@Param("userSex")String sex,@Param("userAge")String age,@Param("password")String password);
 }

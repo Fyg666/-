@@ -15,4 +15,6 @@ public interface UserService {
     User userManagementService(String userName);
 
     int updateUserManagement(String userName, String userAge, String userSex);
+
+    int toRegistered(String userName,String sex,String age,String password);
 }
